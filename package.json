@@ -1,0 +1,12 @@
+{
+  "name": "zustand-storage-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "pnpm recursive run build",
+    "docusaurus": "pnpm --filter docusaurus run start"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

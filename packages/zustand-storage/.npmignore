@@ -1,0 +1,8 @@
+# Exclude Storybook-related files
+.storybook/
+stories/
+storybook/
+docs/storybook/
+
+# Github workflows
+.github/workflows/

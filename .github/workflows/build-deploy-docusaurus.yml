@@ -1,0 +1,35 @@
+name: Build & Deploy Docusaurus
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  docusaurus-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install PNPM
+        run: npm install -g pnpm
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: Build Docusaurus Site
+        working-directory: packages/docusaurus
+        run: pnpm run build
+
+      - name: Deploy Docusaurus to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.2
+        with:
+          branch: gh-pages
+          folder: packages/docusaurus/build
+          token: ${{ secrets.GITHUB_TOKEN }}
