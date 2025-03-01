@@ -19,7 +19,10 @@ const sidebars: SidebarsConfig = {
   // But you can create a sidebar manually
 
   docs: [
-    'intro',
+    {
+      type: 'doc',
+      id: 'intro',
+    },
     {
       type: 'category',
       label: 'Getting Started',

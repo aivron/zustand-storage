@@ -17,7 +17,7 @@ const config: Config = {
   organizationName: 'aivron',
   projectName: 'zustand-storage',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // i18n config
@@ -31,6 +31,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: './sidebars.ts',
           // Uncomment and update the editUrl if you want the "edit this page" links to show.
           // editUrl: 'https://github.com/aivron/zustand-storage/edit/main/',

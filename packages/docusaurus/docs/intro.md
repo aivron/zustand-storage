@@ -1,10 +1,10 @@
 ---
+id: intro
+title: Introduction
 description: Zustand Storage is a universal state management solution that combines @aivron/sync-storage and zust-api to provide seamless persistence, middleware, and optional database integration for React apps.
-slug: /
 sidebar_position: 1
+slug: /docs
 ---
-
-# Introduction
 
 ⚡️ **Zustand Storage** helps you manage your application state effortlessly with a powerful API and automatic persistence—all built with React in mind.
 

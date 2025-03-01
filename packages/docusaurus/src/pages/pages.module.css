@@ -1,0 +1,139 @@
+/* pages.module.css */
+:root {
+    --bg-overlay: linear-gradient(165deg, #d3dfd5, #bac7c0);
+}
+
+[data-theme='dark'] {
+    --bg-overlay: linear-gradient(135deg, #102912, #0b3a02);
+}
+
+/* Hero Section */
+.hero {
+    padding: 4rem 0;
+    color: var(--ifm-font-color-base);
+    background: var(--bg-overlay);
+}
+
+[data-theme='dark'] .hero {
+    background: var(--bg-overlay);
+}
+
+.heroInner {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.heroTitle {
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.heroTagline {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Call-to-action Buttons */
+.ctaButtons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Section */
+.section {
+    padding: 4rem 0;
+}
+
+/* Features Section */
+.featuresSection {
+    background-color: #f7f7f7;
+}
+
+[data-theme='dark'] .featuresSection {
+    background-color: #222;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.videoSection {
+    background-color: #f7f7f7;
+}
+
+[data-theme='dark'] .videoSection {
+    background-color: #1a1a1a;
+}
+
+.videoContainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] .videoContainer {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.videoContainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.discussionSection {
+    background-color: #e9ecef;
+}
+
+[data-theme='dark'] .discussionSection {
+    background-color: #2a2a2a;
+}
+
+.discussionText {
+    font-size: 1.125rem;
+    color: #444;
+    max-width: 600px;
+    margin: 1rem auto 2rem;
+    line-height: 1.6;
+}
+
+[data-theme='dark'] .discussionText {
+    color: #ccc;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .heroTitle {
+        font-size: 2.5rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .heroTagline {
+        font-size: 1.25rem;
+    }
+
+    .ctaButtons {
+        flex-direction: column;
+    }
+}
