@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Production URL of your site
-  url: 'https://your-docusaurus-site.example.com', // Replace with your actual production URL
+  url: 'https://aivron.github.io', // Replace with your actual production URL
   baseUrl: '/zustand-storage/', // Base URL for your site, typically '/', but can use subpaths like '/docs/'
 
   // GitHub pages deployment config (if applicable)
@@ -107,6 +107,10 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'search',
+          position: 'right',
+        }
       ],
     },
     algolia: {
@@ -127,7 +131,7 @@ const config: Config = {
             },
             {
               label: 'API Reference',
-              to: '/docs/api',
+              to: '/api',
             },
           ],
         },
