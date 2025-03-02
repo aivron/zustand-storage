@@ -11,7 +11,7 @@ const config: Config = {
 
   // Production URL of your site
   url: 'https://your-docusaurus-site.example.com', // Replace with your actual production URL
-  baseUrl: '/',
+  baseUrl: '/zustand-storage/', // Base URL for your site, typically '/', but can use subpaths like '/docs/'
 
   // GitHub pages deployment config (if applicable)
   organizationName: 'aivron',
