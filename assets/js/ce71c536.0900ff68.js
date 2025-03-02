@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[508],{6640:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"API Reference","slug":"api","permalink":"/api","sidebar":"api","navigation":{"next":{"title":"createSyncedStore","permalink":"/api/createSyncedStore"}}}}')}}]);
