@@ -4,8 +4,8 @@
   <ShortName>Zustand Storage</ShortName>
   <Description>Search Zustand Storage</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://your-docusaurus-site.example.com/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://your-docusaurus-site.example.com/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://your-docusaurus-site.example.com/opensearch.xml" />
-  <moz:SearchForm>https://your-docusaurus-site.example.com/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://your-docusaurus-site.example.com/zustand-storage/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://your-docusaurus-site.example.com/zustand-storage/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://your-docusaurus-site.example.com/zustand-storage/opensearch.xml" />
+  <moz:SearchForm>https://your-docusaurus-site.example.com/zustand-storage/</moz:SearchForm>
 </OpenSearchDescription>
